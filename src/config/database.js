@@ -1,30 +1,38 @@
 const mysql = require('mysql2/promise');
-require('dotenv').config();
 
-const dbConfig = {
-  host: process.env.MYSQLHOST,
-  user: process.env.MYSQLUSER,
-  password: process.env.MYSQLPASSWORD || process.env.MYSQL_ROOT_PASSWORD,
-  database: process.env.MYSQL_DATABASE,
-  port: Number(process.env.MYSQLPORT),
-  waitForConnections: true,
-  connectionLimit: 10,
-  queueLimit: 0
-};
+
+if (process.env.NODE_ENV !== 'production') {
+  require('dotenv').config();
+}
 
 let pool;
 
 async function initializeDatabase() {
   try {
-    // Crear pool directamente (Railway ya tiene la DB creada)
-    pool = mysql.createPool(dbConfig);
 
-    // Verificar conexión
+    
+    if (process.env.MYSQL_URL) {
+      pool = mysql.createPool(process.env.MYSQL_URL);
+    } else {
+    
+      pool = mysql.createPool({
+        host: process.env.MYSQLHOST,
+        user: process.env.MYSQLUSER,
+        password: process.env.MYSQLPASSWORD || process.env.MYSQL_ROOT_PASSWORD,
+        database: process.env.MYSQLDATABASE, 
+        port: Number(process.env.MYSQLPORT) || 3306,
+        waitForConnections: true,
+        connectionLimit: 10,
+        queueLimit: 0
+      });
+    }
+
+ 
     const connection = await pool.getConnection();
     console.log('Conexión a MySQL exitosa');
     connection.release();
 
-    // Crear tabla si no existe (esto sí es válido en Railway)
+    // Crear tabla si no existe
     await pool.query(`
       CREATE TABLE IF NOT EXISTS contactos (
         id INT AUTO_INCREMENT PRIMARY KEY,
