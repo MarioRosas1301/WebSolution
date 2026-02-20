@@ -1,0 +1,91 @@
+[
+  {
+    "id": "1",
+    "nombre": "Autodesk",
+    "slug": "autodesk",
+    "descripcion": "Autodesk es l\u00edder mundial en software para arquitectos, constructores, ingenieros, dise\u00f1adores, fabricantes, artistas 3D y equipos de producci\u00f3n. Nuestra tecnolog\u00eda de dise\u00f1o y creaci\u00f3n abarca una gran variedad de sectores y pone en manos de los profesionales m\u00e1s innovadores de todo el mundo las soluciones para resolver sus peque\u00f1os y grandes desaf\u00edos.",
+    "videoSource": {
+      "poster": "/assets/autodesk/poster.jpeg",
+      "srcwebm": "/assets/autodesk/video.webm",
+      "srcmp4": "/assets/autodesk/video.mp4",
+      "description": "Amazing things are designed and made every day with Autodesk (video 1:32 min.)"
+    },
+    "chilldProducto": [
+      {
+        "nombre": "Revit",
+        "descripcion": "Planifique, dise\u00f1e, construya y administre edificios con potentes herramientas de modelado de informaci\u00f3n de construcci\u00f3n.",
+        "icono": "/assets/autodesk/icons/revit-2023-simplified-badge-75x75.webp"
+      },
+      {
+        "nombre": "Civil 3D",
+        "descripcion": "Documentaci\u00f3n de dise\u00f1o y construcci\u00f3n de ingenier\u00eda civil",
+        "icono": "/assets/autodesk/icons/civil-3d-2023-simplified-badge-75x75.webp"
+      },
+      {
+        "nombre": "BIM Collaborate Pro",
+        "descripcion": "Software de coautor\u00eda, colaboraci\u00f3n y coordinaci\u00f3n de dise\u00f1o basado en la nube para equipos de arquitectura, ingenier\u00eda y construcci\u00f3n. La versi\u00f3n \"Pro\" permite la colaboraci\u00f3n en cualquier momento y lugar en Revit, Civil 3D y AutoCAD Plant 3D.",
+        "icono": "/assets/autodesk/icons/autodesk-bim-collaborate-pro-2023-simplified-badge-75x75.webp"
+      },
+      {
+        "nombre": "Product Design & Manufacturing Collection",
+        "descripcion": "Obtenga Inventor + AutoCAD + Fusion + m\u00e1s: herramientas de nivel profesional para el desarrollo de productos y la planificaci\u00f3n de la fabricaci\u00f3n.",
+        "icono": "/assets/autodesk/icons/product-design-manufacturing-collection-2023-simplified-badge-75x75.webp"
+      },
+      {
+        "nombre": "AutoCAD",
+        "descripcion": "Software para CAD 2D y 3D. La suscripci\u00f3n incluye AutoCAD, herramientas especializadas y aplicaciones.",
+        "icono": "/assets/autodesk/icons/autocad-2023-simplified-badge-75x75.webp"
+      },
+      {
+        "nombre": "AutoCAD LT",
+        "descripcion": "Software CAD 2D rentable para dise\u00f1o, dibujo y documentaci\u00f3n",
+        "icono": "/assets/autodesk/icons/autocad-2023-simplified-badge-75x75.webp"
+      },
+      {
+        "nombre": "Fusion",
+        "descripcion": "Software de dise\u00f1o de productos basado en la nube para fabricaci\u00f3n, modelado 3D, electr\u00f3nica, simulaci\u00f3n y gesti\u00f3n de datos.",
+        "icono": "/assets/autodesk/icons/fusion-360-2023-simplified-badge-75x75.webp"
+      },
+      {
+        "nombre": "Architecture Engineering & Construction Collection",
+        "descripcion": "Obtenga AutoCAD, Revit, Civil 3D, Autodesk Forma y m\u00e1s, entregados en una \u00fanica compra rentable.",
+        "icono": "/assets/autodesk/icons/architecture-engineering-construction-collection-2023-simplified-badge-75x75.webp"
+      },
+      {
+        "nombre": "Maya",
+        "descripcion": "Software de animaci\u00f3n, modelado, simulaci\u00f3n y renderizado 3D para cine, juegos y televisi\u00f3n",
+        "icono": "/assets/autodesk/icons/maya-2023-simplified-badge-75x75.webp"
+      },
+      {
+        "nombre": "Inventor",
+        "descripcion": "Potentes herramientas de dise\u00f1o e ingenier\u00eda de productos para dise\u00f1o mec\u00e1nico 3D, simulaci\u00f3n, visualizaci\u00f3n y documentaci\u00f3n",
+        "icono": "/assets/autodesk/icons/inventor-professional-2023-simplified-badge-75x75.webp"
+      },
+      {
+        "nombre": "Navisworks Simulate",
+        "descripcion": "Controle los resultados con detecci\u00f3n de conflictos y coordinaci\u00f3n avanzada, an\u00e1lisis 5D y herramientas de simulaci\u00f3n.",
+        "icono": "/assets/autodesk/icons/navisworks-simulate-2023-simplified-badge-75x75.webp"
+      },
+      {
+        "nombre": "Revit LT",
+        "descripcion": "Simplified 3D BIM tool for producing 3D architectural designs and documentation",
+        "icono": "/assets/autodesk/icons/autocad-revit-lt-suite-2023-simplified-badge-75x75.webp"
+      },
+      {
+        "nombre": "3ds Max",
+        "descripcion": "Software de modelado, animaci\u00f3n y renderizado 3D para juegos, pel\u00edculas y visualizaci\u00f3n arquitect\u00f3nica",
+        "icono": "/assets/autodesk/icons/3ds-max-2023-simplified-badge-75x75.webp"
+      },
+      {
+        "nombre": "Media & Entertainment Collection",
+        "descripcion": "Obtenga Maya, 3ds Max, Arnold, MotionBuilder y m\u00e1s, entregados en una \u00fanica compra rentable.",
+        "icono": "/assets/autodesk/icons/media-entertainment-collection-2023-simplified-badge-75x75.webp"
+      },
+      {
+        "nombre": "Flow Production Tracking",
+        "descripcion": "Un conjunto de herramientas de revisi\u00f3n y seguimiento de producci\u00f3n para equipos de efectos visuales, juegos y animaci\u00f3n",
+        "icono": "/assets/autodesk/icons/flow-production-tracking-2025-simplified-badge-75x75.webp"
+      }
+    ]
+  }
+]

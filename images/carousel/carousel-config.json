@@ -1,0 +1,27 @@
+[
+  {
+    "filename": "AutodeskL.webp",
+    "name": "Autodesk",
+    "link": "producto/autodesk"
+  },
+  {
+    "filename": "windows.webp",
+    "name": "Microsoft Windows",
+    "link": "producto/microsoft-windows"
+  },
+  {
+    "filename": "microsoft-office.webp",
+    "name": "Microsoft Office",
+    "link": "producto/microsoft-office"
+  },
+  {
+    "filename": "adobe.webp",
+    "name": "Adobe Creative Cloud",
+    "link": "producto/adobe-creative-cloud"
+  },
+  {
+    "filename": "eset_800_5.webp",
+    "name": "ESET Antivirus",
+    "link": "producto/epset-antivirus-premium"
+  }
+]
